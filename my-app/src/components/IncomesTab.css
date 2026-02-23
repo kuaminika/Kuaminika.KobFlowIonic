@@ -1,0 +1,106 @@
+.income-summary-card {
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, var(--ion-color-success), var(--ion-color-success-tint));
+  color: white;
+}
+
+.income-summary-card ion-card-title,
+.income-summary-card ion-card-subtitle {
+  color: white;
+}
+
+.total-income {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: white;
+}
+
+.income-stats {
+  margin-top: 15px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stat-item ion-icon {
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.stat-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.stat-value {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.income-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+}
+
+.income-icon ion-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.income-icon.salary {
+  background-color: #2ecc71;
+}
+
+.income-icon.freelance {
+  background-color: #3498db;
+}
+
+.income-icon.investment {
+  background-color: #9b59b6;
+}
+
+.income-icon.gift {
+  background-color: #e74c3c;
+}
+
+.income-icon.rental {
+  background-color: #f39c12;
+}
+
+.section-header {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.insights-card {
+  margin-top: 20px;
+  border-radius: 12px;
+  background: #f0f9ff;
+  border-left: 4px solid var(--ion-color-success);
+}
+
+ion-fab {
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+ion-note {
+  font-weight: 600;
+}

@@ -1,0 +1,55 @@
+.summary-card {
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.total-amount {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: var(--ion-color-primary);
+}
+
+.expense-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.expense-icon ion-icon {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.expense-icon.food {
+  background-color: #ff7b7b;
+}
+
+.expense-icon.transport {
+  background-color: #5e9eff;
+}
+
+.expense-icon.shopping {
+  background-color: #ffb259;
+}
+
+.expense-icon.entertainment {
+  background-color: #a85eff;
+}
+
+.expense-icon.bills {
+  background-color: #ff5e8a;
+}
+
+.expense-icon.other {
+  background-color: #7d7d7d;
+}
+
+ion-fab {
+  margin-top: 70px;
+  margin-right: 10px;
+}
